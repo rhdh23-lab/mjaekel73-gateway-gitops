@@ -1,0 +1,15 @@
+app:
+  name: mjaekel73-poi-gateway-app
+  namespace: mjaekel73
+  cluster: .apps.rosa-m9x67.dusy.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/rhdh23-lab/mjaekel73-gateway
+  org: rhdh23-lab
+  name: mjaekel73-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: mjaekel73/poi-gateway-app
+  tag: latest
